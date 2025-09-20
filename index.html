@@ -10,21 +10,19 @@
     <!-- Add Babel for in-browser JSX/TSX transpilation -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-<link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="./index.css">
   <script type="importmap">
 {
   "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
     "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.1.1/client"
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-B03rPka2.js"></script>
+  <script type="module" crossorigin src="/AI-Resume-Writer/assets/index-B03rPka2.js"></script>
 </head>
   <body class="bg-gray-200">
     <div id="root"></div>
     <!-- Update script type to 'text/babel' to enable transpilation -->
-    <script type="text/babel" data-type="module" src="./index.tsx"></script>
 </body>
 </html>
